@@ -9,18 +9,7 @@ A real-time behavioral biometrics authentication system combining **facial recog
 ![System Demonstration](demo.gif)
 *Real-time face recognition and blink detection system*
 
-## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [How It Works](#how-it-works)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## 🎯 Overview
 
@@ -212,37 +201,6 @@ python register_user.py --name "Your Name" --images 20
 python main.py --mode continuous --timeout 300
 ```
 
-## 📁 Project Structure
-
-```
-behavioral-biometrics-auth/
-│
-├── models/                              # Pre-trained model files
-│   ├── shape_predictor_68_face_landmarks.dat
-│   └── dlib_face_recognition_resnet_model_v1.dat
-│
-├── data/                                # User data (excluded from git)
-│   ├── faces/                           # Authorized user face images
-│   └── embeddings.pkl                   # Stored face embeddings
-│
-├── src/                                 # Source code
-│   ├── face_recognition.py              # Face recognition module
-│   ├── blink_detection.py               # Blink detection module
-│   └── utils.py                         # Utility functions
-│
-├── notebooks/                           # Jupyter notebooks for testing
-│   └── algorithm_testing.ipynb
-│
-├── logs/                                # Authentication logs
-│   └── auth_log.txt
-│
-├── blink.py                             # Main blink detection script
-├── blinkdetect.py                       # Alternative implementation
-├── requirements.txt                     # Python dependencies
-├── .gitignore                           # Git ignore rules
-├── README.md                            # This file
-└── LICENSE                              # MIT License
-```
 
 ## 🔮 Future Enhancements
 
@@ -314,9 +272,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-
+- GitHub: [@yourusername](https://github.com/Burunciuc07
+- LinkedIn: [Your Profile](https://linkedin.com/in/burunciuc-carmen-533ba5296)
 ## 🙏 Acknowledgments
 
 - [dlib](http://dlib.net/) - Facial landmark detection
@@ -326,7 +283,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-For questions or feedback, please open an issue or contact [your.email@example.com](mailto:your.email@example.com)
+For questions or feedback, please open an issue or contact [bcarmen0702@gmail.com](mailto:bcarmen0702@gmail.com)
 
 ---
 
